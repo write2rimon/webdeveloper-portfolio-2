@@ -35,3 +35,8 @@ nav a {
 .nav-title{
     font-size: 45px;
 }
+
+/* header related styles */
+.header {
+    background-color: #FFF8F3;
+}
