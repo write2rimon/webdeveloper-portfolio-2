@@ -1,0 +1,37 @@
+/* common shared styles */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 35px;
+    color: white;
+}
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.nav-title{
+    font-size: 45px;
+}
