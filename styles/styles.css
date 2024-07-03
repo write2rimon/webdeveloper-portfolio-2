@@ -19,6 +19,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 nav > ul{
     display: flex;
@@ -39,4 +40,7 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
+}
+.banner{
+    display: flex;
 }
